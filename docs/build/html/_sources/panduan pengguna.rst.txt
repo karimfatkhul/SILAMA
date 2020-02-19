@@ -510,3 +510,321 @@ Layanan akademik tingkat jurusan terdiri atas beberapa kategori yaitu, pengajuan
 
  4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
  5. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+
+3. Staff Fakultas
+=================================================
+  
+Staff Fakultas mempunyai peran untuk merespon pengajuan layanan akademik di tingkat Fakultas yang diajukan oleh Mahasiswa. Staff Fakultas juga dapat melakukan rekapitulasi terhadap semua layanan yang diajukan Mahasiswa di tingkat Fakultas sebagai bentuk laporan dan kontrol.
+
+
+**1. Memperbarui akun**
+
+ 1. Staff Fakultas melakukan proses otentikasi melalui halaman Login.
+
+  
+  .. figure:: images/login.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Staff Fakultas akan diarahkan ke halaman Dashboard.
+ 3. Pilih menu :code:`Kelola Akun Saya`. Sistem akan mengarahkan ke halaman detail akun pengguna.
+
+  
+  .. figure:: images/sf-profil.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 4. Isikan data pada kolom isian yang ingin diperbarui.
+ 5. Tekan tombol :code:`Perbarui`.
+ 6. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan. 
+
+ 
+ .. figure:: images/sf-ok.png
+    :width: 600
+    :alt: gambar 1. halaman login
+
+
+ 7. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+  
+  .. figure:: images/sf-error.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+**2.  Menambahkan data Dosen**
+
+ 1. Pada panel menu di sebelah kiri, pilih menu :code:`Daftar Dosen`. Sistem akan menampilkan daftar Dosen, tekan tombol :code:`Tambah Dosen` untuk menambahkan data Dosen baru.
+
+
+  .. figure:: images/dosen.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman formulir untuk menambahkan data Dosen baru. Isi semua kolom isian dan tekan :code:`Simpan` untuk menyimpan data . 
+
+
+  .. figure:: images/form-dosen.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**3.  Memperbarui data Dosen**
+
+ 1. Pada daftar Dosen klik tanda :code:`...` pada kolom Opsi pada baris Dosen yang ingin diperbarui. Pilih :code:`Edit`.
+
+
+  .. figure:: images/opsi-dosen.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman formulir untuk memperbarui data Dosen. Isi data dengan data yang baru pada  kolom isian yang ingin diperbarui datanya. Tekan :code:`Simpan` untuk menyimpan data . 
+
+
+  .. figure:: images/edit-dosen.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**4.  Menghapus data Dosen**
+
+ 1. Pada daftar Dosen klik tanda :code:`...` pada kolom Opsi pada baris Dosen yang ingin dihapus. Pilih :code:`Hapus`.
+
+
+  .. figure:: images/opsi-dosen.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Sistem akan menampilkan halaman konfirmasi penghapusan. Tekan tombol :code:`Ok` untuk menghapus data . 
+
+
+  .. figure:: images/delete-dosen.png
+     :width: 600
+     :alt: gambar 4. Hapus Pengguna
+
+
+**5.  Mereview pengajuan layanan akademik**
+
+ 1. Pada panel menu di sebelah kiri, pilih layanan fakultas yang diinginkan. Sebagai contoh kita pilih :code:`Izin Magang`. Sistem akan menampilkan daftar Izin Magang yang sudah dibuat oleh Mahasiswa. 
+
+
+  .. figure:: images/sf-list.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Pilih :code:`Detail` pada baris Izin Magang yang ingin direview. Sistem akan otomatis mengarahkan ke halaman detail pengajuan Izin Magang.
+
+
+  .. figure:: images/sf-detail.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 3. Tekan :code:`Tolak` untuk menolak pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses penolakan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Tolak` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses penolakan.
+
+
+  .. figure:: images/sf-tolak.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+3. Tekan :code:`Setujui` untuk menyetujui pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses persetujuan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Setujui` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses persetujuan.
+
+
+  .. figure:: images/sf-setuju.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+.. note::
+    Ketika menolak suatu pengajuan, pastikan untuk memberikan note alasan penolakan, agar mempermudah Mahasiswa dalam merevisi pengajuan. Ketika menyetujui pengajuan, pastikan untuk melampirkan surat izin persetujuan.
+
+
+4. Staff Jurusan
+=================================================
+  
+Staff Jurusan mempunyai peran untuk merespon pengajuan layanan akademik di tingkat Jurusan yang diajukan oleh Mahasiswa. Staff Jurusan juga dapat melakukan rekapitulasi terhadap semua layanan yang diajukan Mahasiswa di tingkat Jurusan sebagai bentuk laporan dan kontrol.
+
+
+**1. Memperbarui akun**
+
+ 1. Staff Jurusan melakukan proses otentikasi melalui halaman Login.
+
+  
+  .. figure:: images/login.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Staff Fakultas akan diarahkan ke halaman Dashboard.
+ 3. Pilih menu :code:`Kelola Akun Saya`. Sistem akan mengarahkan ke halaman detail akun pengguna.
+
+  
+  .. figure:: images/sj-profil.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 4. Isikan data pada kolom isian yang ingin diperbarui.
+ 5. Tekan tombol :code:`Perbarui`.
+ 6. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan. 
+
+ 
+ .. figure:: images/sj-ok.png
+    :width: 600
+    :alt: gambar 1. halaman login
+
+
+ 7. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+  
+  .. figure:: images/sj-error.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+Mereview pengajuan layanan akademik
+--------------------------------------
+
+**1. Pengajuan judul skripsi**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Judul Skripsi`.Sistem akan menampilkan daftar pengajuan Judul Skripsi yang sudah dibuat oleh Mahasiswa. 
+
+
+  .. figure:: images/sf-prop.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Untuk mengecek apakah ada duplikasi atau kesamaan judul dan rangkuman proposal, Staff Jurusan dapat memanfaatkan fitur pencarian berdasarakan kata kunci dari judul atau rangkuman proposal. Sebagai contoh kita akan mengecek apakah pengajuan dengan judul, Pengaruh Pendapatan Bunga dan Fees Base Income terhadap Laba Operasional pada Bank Rakyat Indonesia (Persero) Tbk Cabang Yogyakarta terdapat dupliasi atau tidak, maka kita cukup memasukkan kata kunci dengan judul tersebut ke kolom pencarian.
+ 3. Selanjutnya tekan :code:`Detail` pada baris pengajuan Judul Skripsi yang akan direview. Sistem akan menampilkan detail pengajuan Judul Skripsi. Tekan :code:`Setujui` untuk menyetujui pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses persetujuan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Setujui` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses persetujuan.
+
+
+  .. figure:: images/sf-approve.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+4. Tekan :code:`Tolak` untuk menolak pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses penolakan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Tolak` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses penolakan.
+
+
+  .. figure:: images/sf-reject.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+.. note::
+    Ketika menolak suatu pengajuan, pastikan untuk memberikan note alasan penolakan, agar mempermudah Mahasiswa dalam merevisi pengajuan. Ketika menyetujui pengajuan, pastikan untuk melampirkan surat izin persetujuan.
+
+
+**2. Pengajuan ujian proposal**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Proposal`.Sistem akan menampilkan daftar pengajuan Ujian Proposal yang sudah dibuat oleh Mahasiswa. 
+
+
+  .. figure:: images/prop-list.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Selanjutnya tekan :code:`Detail` pada baris pengajuan Ujian Proposal yang akan direview. Sistem akan menampilkan detail pengajuan Ujian Proposal.
+
+
+  .. figure:: images/prop-detail.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+3. Tekan :code:`Setujui` untuk menyetujui pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses persetujuan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Setujui` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses persetujuan.
+
+
+  .. figure:: images/prop-ok.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+4. Tekan :code:`Tolak` untuk menolak pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses penolakan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Tolak` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses penolakan.
+
+
+  .. figure:: images/prop-no.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+.. note::
+    Ketika menyetujui pengajuan, pastikan untuk melampirkan surat izin persetujuan, memilih tanggal ujian proposal dan menentukan dosen penguji untuk ujian proposal yang bersangkutan.
+
+
+**3. Pengajuan ujian skripsi**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Pendadaran`.Sistem akan menampilkan daftar pengajuan Ujian Skripsi yang sudah dibuat oleh Mahasiswa. 
+
+
+  .. figure:: images/skripsi-lists.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Selanjutnya tekan :code:`Detail` pada baris pengajuan Ujian Skrupsi yang akan direview. Sistem akan menampilkan detail pengajuan Ujian Skripsi.
+
+
+  .. figure:: images/skripsi-detail.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+3. Tekan :code:`Setujui` untuk menyetujui pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses persetujuan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Setujui` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses persetujuan.
+
+
+  .. figure:: images/skripsi-ok.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+4. Tekan :code:`Tolak` untuk menolak pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses penolakan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Tolak` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses penolakan.
+
+
+  .. figure:: images/skripsi-no.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+.. note::
+    Ketika menyetujui pengajuan, pastikan untuk melampirkan surat izin persetujuan, memilih tanggal ujian skripsi dan menentukan dosen penguji untuk ujian skripsi yang bersangkutan.
+
+
+**4. Pengajuan SKPI**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`SKPI`.Sistem akan menampilkan daftar pengajuan SKPI yang sudah dibuat oleh Mahasiswa. 
+
+
+  .. figure:: images/skpi-list.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+ 2. Selanjutnya tekan :code:`Detail` pada baris pengajuan SKPI yang akan direview. Sistem akan menampilkan detail pengajuan SKPI.
+
+
+  .. figure:: images/skpi-detail.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+3. Tekan :code:`Setujui` untuk menyetujui pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses persetujuan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Setujui` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses persetujuan.
+
+
+  .. figure:: images/skpi-ok.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
+
+
+4. Tekan :code:`Tolak` untuk menolak pengajuan. Sistem akan menampilkan jendela konfirmasi apakah proses penolakan pengajuan akan diteruskan atau tidak. Tekan :code:`Ya, Tolak` untuk melanjutkan dan tekan :code:`Batal` untuk membatalkan proses penolakan.
+
+
+  .. figure:: images/skpi-no.png
+     :width: 600
+     :alt: gambar 4. Detail Pengguna
