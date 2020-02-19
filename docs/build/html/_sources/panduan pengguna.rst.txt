@@ -40,7 +40,7 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
      :alt: gambar 1. halaman login
 
 
- 4. Lalu pada pojok kanan atas, pilih atau tekan tombol :code:`Tambah Pengguna`. Selanjutnya secara otomatis Admin akan diarahkan ke halaman tambah pengguna.
+ 4. Lalu pada pojok kanan atas, pilih atau tekan tombol :code:`Tambah Pengguna`. Selanjutnya Admin akan diarahkan ke halaman tambah pengguna.
 
 
   .. figure:: images/tambah-pengguna.png
@@ -51,7 +51,7 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
  5. Pada halaman tambah pengguna, isikan semua detail pengguna sesuai dengan kolom isian yang ada.
  6. Pada kolom peran pengguna terdapat 4 peran pengguna yang bisa dipilih yaitu Admin, Mahasiswa, Staff Fakultas, dan Staff Jurusan. Pilih peran pengguna sesuai dengan peran yang diinginkan.
  7. Tekan :code:`Simpan`.
- 8. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan, dan Admin akan secara otomatis diarahkan ke halaman daftar pengguna yang sudah dibuat. Sistem juga secara otomatis akan mengirimkan detail nama pengguna dan kata sandi ke alamat email dari pengguna yang baru saja dibuat. Detail nama pengguna dan kata sandi ini diperlukan oleh pengguna untuk proses otentikasi di halaman login ketika akan mengakses layanan SILAMA.
+ 8. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan, dan Admin akan  diarahkan ke halaman daftar pengguna yang sudah dibuat. Sistem juga akan mengirimkan detail nama pengguna dan kata sandi ke alamat email dari pengguna yang baru saja dibuat. Detail nama pengguna dan kata sandi ini diperlukan oleh pengguna untuk proses otentikasi di halaman login ketika akan mengakses layanan SILAMA.
 
 
   .. figure:: images/pesan-ok.png
@@ -95,12 +95,16 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
      :alt: gambar 4. Detail Pengguna
 
 
- 2. Pilih :code:`Edit`. Sistem akan otomatis mengarahkan ke halaman edit pengguna sesuai dengan pengguna yang dipilih
+ 2. Pilih :code:`Edit`. Sistem akan mengarahkan ke halaman edit pengguna sesuai dengan pengguna yang dipilih
 
 
   .. figure:: images/edit.png
      :width: 600
      :alt: gambar 4. Edit Pengguna
+
+
+ 3. Pada halaman edit pengguna, isikan detail pengguna pada kolom yang ingin diperbarui.
+ 4. Tekan :code:`Simpan` untuk menyimpan perubahan.
 
 
 **3.  Menonaktifkan akun pengguna**
@@ -199,7 +203,7 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
 
 **8.  Melihat data layanan akademik**
 
- 1. Terdapat dua layanan akademik pada SILAMA, yaitu layanan akdemik tingkat fakultas dan layanan akademik tingkat jurusan. Pengguna dengan peran Admin hanya dapat memonitor jalannya layanan yang diajukan oleh Mahasiswa dan mengekspor datanya sebagai bentuk laporan. Untuk melihat data layanan akademik, pilih layanan akademik sesuai dengan kategori layanan yang ingin dilihat. Sebagai contoh pilih/klik menu :code:`Izin Magang` untuk melihat data layanan akademik dengan kategori Izin Magang.
+ 1. Terdapat dua layanan akademik pada SILAMA, yaitu layanan akdemik tingkat fakultas dan layanan akademik tingkat jurusan. Pengguna dengan peran Admin hanya dapat memonitor jalannya layanan yang diajukan oleh Mahasiswa dan mengekspor datanya sebagai bentuk laporan. Untuk melihat data layanan akademik, pilih layanan akademik sesuai dengan kategori layanan yang ingin dilihat. Sebagai contoh pilih menu :code:`Izin Magang` untuk melihat data layanan akademik dengan kategori Izin Magang.
 
 
   .. figure:: images/magang-list.png
@@ -229,30 +233,8 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
      :alt: gambar 4. Hapus Pengguna
 
 
-Mahasiswa
+2. Mahasiswa
 =================================================
-  
-Literal Blocks
---------------
-
-Literal blocks are indicated with a double-colon ("::") at the end of
-the preceding paragraph (over there ``-->``).  They can be indented::
-
-    if literal_block:
-        text = 'is left as-is'
-        spaces_and_linebreaks = 'are preserved'
-        markup_processing = None
-
-Or they can be quoted without indentation::
-
->> Great idea!
->
-> Why didn't I think of that?
-
-Line Blocks
------------
-
-This is a line block.  It ends with a blank line.
 
 Peran utama Mahasiswa dalam SILAMA adalah untuk mengajukan layanan akademik sesuai dengan kebutuhan.
 
@@ -266,7 +248,7 @@ Peran utama Mahasiswa dalam SILAMA adalah untuk mengajukan layanan akademik sesu
      :alt: gambar 1. halaman login
 
 
- 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Mahasiswa akan secara otomatis diarahkan ke halaman Dashboard.
+ 2. Jika kombinasi nama pengguna dan kata sandi sesuai, Mahasiswa akan diarahkan ke halaman Dashboard.
  3. Pilih menu :code:`Kelola Akun Saya`. Sistem akan mengarahkan ke halaman detail akun pengguna.
 
   
@@ -292,7 +274,11 @@ Peran utama Mahasiswa dalam SILAMA adalah untuk mengajukan layanan akademik sesu
      :width: 600
      :alt: gambar 1. halaman login
 
-**2. Mengajukan layanan tingkat fakultas**
+
+Layanan akademik tingkat fakultas
+----------------------------------
+
+**1. Mengajukan layanan tingkat fakultas**
 
 Layanan akademik tingkat fakultas terdiri atas beberapa kategori yaitu, pengajuan Izin Magang, Izin Penelitian, Surat Keterangan Lulus (SKL), Permohonan Cuti dan Pemulihan Status. Berikut cara pengajuan layanan akademik di tingkat fakultas
 
@@ -324,9 +310,9 @@ Layanan akademik tingkat fakultas terdiri atas beberapa kategori yaitu, pengajua
   :code:`Ditolak` berarti pengajuan usulan Izin Magang tidak disetujui. Mahasiswa dapat melihat alasan penolakan pada detail pengajuan usulan Izin Magang. Selanjutnya jika diperlukan, Mahasiswa dapat merevisi pengajuan usulan Izin Magang untuk kembali diajukan ke pihak Fakultas.
 
 
-**3. Memperbarui/mengedit layanan tingkat fakultas**
+**2. Memperbarui/mengedit layanan tingkat fakultas**
 
- 1. Pada panel menu di sebelah kiri, pilih layanan fakultas yang diinginkan. Sebagai contoh kita pilih :code:`Izin Magang`. Sistem akan menampilkan daftar Izin Magang yang sudah kita buat. Tekan tanda :code:`...` pada baris Izin Magang yang akan kita edit/perbarui datanya.
+ 1. Pada panel menu di sebelah kiri, pilih layanan fakultas yang diinginkan. Sebagai contoh kita pilih :code:`Izin Magang`. Sistem akan menampilkan daftar Izin Magang yang sudah kita buat. Tekan tanda :code:`...` pada baris Izin Magang yang akan kita edit datanya. Pilih :code:`Edit`, sistem akan mengarahkan ke halaman edit pengajuan Izin Magang.
 
   
   .. figure:: images/opsi-magang.png
@@ -343,7 +329,7 @@ Layanan akademik tingkat fakultas terdiri atas beberapa kategori yaitu, pengajua
      :alt: gambar 1. halaman login
 
 
- 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data pengajuan Izin Magang berhasil diperbarui.
+ 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data pengajuan Izin Magang berhasil diperbarui dan dikirmkan ke Staff Fakultas.
 
   
   .. figure:: images/magang-ok.png
@@ -358,7 +344,7 @@ Layanan akademik tingkat fakultas terdiri atas beberapa kategori yaitu, pengajua
      :alt: gambar 1. halaman login
 
 
-**4. Mengunduh surat persetujuan**
+**3. Mengunduh surat persetujuan**
 
 Layanan akademik tingkat fakultas yang telah direview dan disetujui oleh pihak Fakultas akan mendapatkan surat persetujuan. Selanjutnya Mahasiswa dapat mengunduh surat persetujuan tersebut untuk dicetak secara mandiri untuk dipergunakan sesuai kebutuhan. Ikuti langkah berikut untuk mengunduh surat persetujuan.
 
@@ -403,14 +389,18 @@ Layanan akademik tingkat fakultas yang telah direview dan disetujui oleh pihak F
      :alt: gambar 1. halaman login
 
 
-**5. Mengajukan layanan tingkat jurusan**
+
+Layanan akademik tingkat jurusan
+---------------------------------
 
 Layanan akademik tingkat jurusan terdiri atas beberapa kategori yaitu, pengajuan Judul Skripsi, Ujian Proposal,  Ujian Pendadaran, dan Surat Keterangan Pendamping Ijazah (SKPI). Berikut cara pengajuan layanan akademik di tingkat jurusan
 
- 1. Pada panel menu di sebelah kiri, pilih layanan jurusan yang diinginkan. Sebagai contoh kita pilih :code:`Judul Skripsi` untuk membuat pengajuan tentang Judul Skripsi. Pada halaman daftar Judul Skripsi klik tombol :code:`Pengajuan Judul Skripsi` untuk membuat pengajuan baru.
+**1. Mengajukan judul skripsi**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Judul Skripsi` untuk membuat pengajuan tentang Judul Skripsi. Pada halaman daftar Judul Skripsi klik tombol :code:`Pengajuan Judul Skripsi` untuk membuat pengajuan baru.
 
   
-  .. figure:: images/magang.png
+  .. figure:: images/judul-list.png
      :width: 600
      :alt: gambar 1. halaman login
 
@@ -419,7 +409,7 @@ Layanan akademik tingkat jurusan terdiri atas beberapa kategori yaitu, pengajuan
  3. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
 
   
-  .. figure:: images/magang-form.png
+  .. figure:: images/judul-form.png
      :width: 600
      :alt: gambar 1. halaman login
 
@@ -437,3 +427,86 @@ Layanan akademik tingkat jurusan terdiri atas beberapa kategori yaitu, pengajuan
 
 .. note::
     Layanan akdemik tingkat Jurusan bersifat sequential (berurutan), dimana antara layanan satu dengan yang lainnya memiliki kesinambungan. Untuk dapat mengajukan Ujian Proposal kita harus terlebih dahulu mendapat persetujuan dari pengajuan Judul Skripsi yang kita buat. Demikian halnya dengan pengajuan Ujian Pendadaran, fitur pengajuan Ujian Pendadaran akan bisa diakses ketika pengajuan Ujian Proposal telah disetujui.  
+
+
+**2. Mengajukan ujian proposal**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Proposal`. Pada halaman daftar Ujian Proposal klik tombol :code:`Pendaftaran Ujian Proposal`.
+
+  
+  .. figure:: images/proposal-list.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 2. Pada halaman formulir pendaftaran Ujian Proposal, isikan data pada kolom isian yang ada. Cermati pada bagian kolom pilih Judul Skripsi. Jika kita belum mengajukan usulan Judul Skripsi atau usulan Judul Skripsi kita belum disetujui, maka kolom pilih Judul Skripsi datanya akan kosong dan kita tidak dapat melakukan pengajuan Ujian Proposal.
+ 3. Jika kolom Judul Skripsi ada datanya, pilih Judul Skripsi pada kolom tersebut. Secara otomatis kolom Ringkasan Proposal akan terisi sesuai dengan Ringkasan Proposal pada Judul Skripsi yang dipilih.  
+ 4. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
+
+  
+  .. figure:: images/proposal-form.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
+ 6. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+.. note::
+    Ketika pengajuan Ujian proposal telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan dosen penguji untuk kita. Data tentang dosen penguji ini dapat kita lihat pada halaman detail pada pengajuan Ujian Proposal dengan status :code:`Disetujui`.
+
+
+  
+  .. figure:: images/proposal-detail.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+**3. Mengajukan ujian skripsi**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Pendadaran`. Pada halaman daftar Ujian Skripsi klik tombol :code:`Pendaftaran Ujian Skripsi`.
+
+  
+  .. figure:: images/skripsi-list.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 2. Pada halaman formulir pendaftaran Ujian Skripsi, isikan data pada kolom isian yang ada. Cermati pada bagian kolom pilih Judul Skripsi. Jika kita belum mengajukan usulan Ujian Proposal atau usulan Ujian Proposal kita belum disetujui, maka kolom pilih Judul Skripsi datanya akan kosong dan kita tidak dapat melakukan pengajuan Ujian Skripsi.
+ 3. Jika kolom Judul Skripsi ada datanya, pilih Judul Skripsi pada kolom tersebut. Secara otomatis kolom Ringkasan Proposal dan Dosen Pembimbing akan terisi secara otomatis, sesuai dengan Ringkasan Proposal dan Dosen Pembimbing pada Judul Skripsi yang dipilih.  
+ 4. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
+
+  
+  .. figure:: images/skripsi-form.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
+ 6. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+.. note::
+    Ketika pengajuan Ujian Skripsi telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan dosen penguji untuk kita. Data tentang dosen penguji ini dapat kita lihat pada halaman detail pada pengajuan Ujian Skripsi dengan status :code:`Disetujui`.
+
+
+**4. Mengajukan SKPI**
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`SKPI`. Pada halaman daftar pengajuan SKPI klik tombol :code:`Pengajuan SKPI`.
+
+  
+  .. figure:: images/skpi-list.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 2. Pada halaman formulir pengajuan SKPI, isikan data pada kolom isian yang ada. 
+ 3. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan SKPI.
+
+  
+  .. figure:: images/skpi-form.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
+ 5. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
