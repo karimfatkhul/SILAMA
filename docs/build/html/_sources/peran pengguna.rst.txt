@@ -7,26 +7,26 @@
 Peran Pengguna
 ***************
 
-Untuk mempermudah penggunaan SILAMA, sistem ini terbagi atas beberapa peran pengguna yaitu: 
+Untuk mempermudah penggunaan SIYANMA, sistem ini terbagi atas beberapa peran pengguna yaitu: 
 
 1. Admin
 =========
 	
-	Peran utama :code:`Admin` dalam SILAMA adalah mengelola semua pengguna yang terlibat dalam pemakaian sistem ini. Admin dapat  membuat akun untuk pengguna lain, mengedit akun serta menghapus akun pengguna. Admin juga mempunyai hak akses untuk dapat memonitor semua jalannya proses pengajuan layanan akademik oleh mahasiswa.  
+	Peran utama :code:`Admin` dalam SIYANMA adalah mengelola semua pengguna yang terlibat dalam pemakaian sistem ini. Admin dapat  membuat akun untuk pengguna lain, mengedit akun serta menghapus akun pengguna. Admin juga mempunyai hak akses untuk dapat memonitor semua jalannya proses pengajuan layanan akademik oleh mahasiswa.  
  
 
 	.. note::
-	    Pengguna dengan peran sebagai Admin, secara otomatis akan mempunyai hak akses sebagai Admin disemua sistem informasi yang ada (SIREBI, SIPRESMA dan SILAMA). Jadi ketika kita membuat pengguna dengan peran sebagai Admin melalui SILAMA, maka secara otomatis pengguna yang baru saja dibuat tersebut dapat mengakses SIREBI dan SIPRESMA dengan hak akses sebagai Admin. 
+	    Pengguna dengan peran sebagai Admin, secara otomatis akan mempunyai hak akses sebagai Admin disemua sistem informasi yang ada (SIREBI, SIPRESMA dan SIYANMA). Jadi ketika kita membuat pengguna dengan peran sebagai Admin melalui SIYANMA, maka secara otomatis pengguna yang baru saja dibuat tersebut dapat mengakses SIREBI dan SIPRESMA dengan hak akses sebagai Admin. 
 
 	 
 2. Mahasiswa
 =============
 	
-	:code:`Mahasiswa` mempunyai peran untuk mengajukan layanan akademik baik ditingkat jurusan ataupun ditingkat fakultas. Untuk dapat menggunakan layanan SILAMA, Mahasiswa dapat mendaftar secara mandiri melalui portal SILAMA.
+	:code:`Mahasiswa` mempunyai peran untuk mengajukan layanan akademik baik ditingkat jurusan ataupun ditingkat fakultas. Untuk dapat menggunakan layanan SIYANMA, Mahasiswa dapat mendaftar secara mandiri melalui portal SIYANMA.
 
 
 	.. note::
-	    Ketika kita membuat pengguna dengan peran sebagai Mahasiswa di SILAMA, secara otomatis pengguna tersebut juga mempunyai hak akses ke Sistem Informasi Prestasi Mahasiswa (SIPRESMA) dengan peran sebagai Mahasiswa.
+	    Ketika kita membuat pengguna dengan peran sebagai Mahasiswa di SIYANMA, secara otomatis pengguna tersebut juga mempunyai hak akses ke Sistem Informasi Prestasi Mahasiswa (SIPRESMA) dengan peran sebagai Mahasiswa.
 
 
 3. Staff Fakultas

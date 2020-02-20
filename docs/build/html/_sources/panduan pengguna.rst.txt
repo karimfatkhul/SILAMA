@@ -7,21 +7,21 @@
 Panduan Pengguna
 *****************
 
-Berikut panduan penggunanaan SILAMA berdasarkan peran masing-masing
+Berikut panduan penggunanaan SIYANMA berdasarkan peran masing-masing
 
 1. Admin
 =========
   
-Secara default, SILAMA mempunyai satu akun pengguna yang perannya sebagai Admin. Selanjutnya Admin dapat membuat akun untuk pengguna-pengguna lainnya sesuai dengan peran yang diinginkan.
+Secara default, SIYANMA mempunyai satu akun pengguna yang perannya sebagai Admin. Selanjutnya Admin dapat membuat akun untuk pengguna-pengguna lainnya sesuai dengan peran yang diinginkan.
 
 
 .. note::
-    Khusus untuk pengguna dengan peran sebagai Mahasiswa, Mahasiswa dapat mendaftarkan dirinya sendiri secara mandiri melalui halaman pendaftaran di SILAMA. 
+    Khusus untuk pengguna dengan peran sebagai Mahasiswa, Mahasiswa dapat mendaftarkan dirinya sendiri secara mandiri melalui halaman pendaftaran di SIYANMA. 
 
 
 **1. Pembuatan akun pengguna**
 
-Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA. 
+Berikut langkah-langkah pembuatan akun pengguna untuk SIYANMA. 
 
  1. Admin melakukan proses otentikasi melalui halaman Login.
 
@@ -51,7 +51,7 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
  5. Pada halaman tambah pengguna, isikan semua detail pengguna sesuai dengan kolom isian yang ada.
  6. Pada kolom peran pengguna terdapat 4 peran pengguna yang bisa dipilih yaitu Admin, Mahasiswa, Staff Fakultas, dan Staff Jurusan. Pilih peran pengguna sesuai dengan peran yang diinginkan.
  7. Tekan :code:`Simpan`.
- 8. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan, dan Admin akan  diarahkan ke halaman daftar pengguna yang sudah dibuat. Sistem juga akan mengirimkan detail nama pengguna dan kata sandi ke alamat email dari pengguna yang baru saja dibuat. Detail nama pengguna dan kata sandi ini diperlukan oleh pengguna untuk proses otentikasi di halaman login ketika akan mengakses layanan SILAMA.
+ 8. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa data berhasil disimpan, dan Admin akan  diarahkan ke halaman daftar pengguna yang sudah dibuat. Sistem juga akan mengirimkan detail nama pengguna dan kata sandi ke alamat email dari pengguna yang baru saja dibuat. Detail nama pengguna dan kata sandi ini diperlukan oleh pengguna untuk proses otentikasi di halaman login ketika akan mengakses layanan SIYANMA.
 
 
   .. figure:: images/pesan-ok.png
@@ -203,7 +203,7 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
 
 **8.  Melihat data layanan akademik**
 
- 1. Terdapat dua layanan akademik pada SILAMA, yaitu layanan akdemik tingkat fakultas dan layanan akademik tingkat jurusan. Pengguna dengan peran Admin hanya dapat memonitor jalannya layanan yang diajukan oleh Mahasiswa dan mengekspor datanya sebagai bentuk laporan. Untuk melihat data layanan akademik, pilih layanan akademik sesuai dengan kategori layanan yang ingin dilihat. Sebagai contoh pilih menu :code:`Izin Magang` untuk melihat data layanan akademik dengan kategori Izin Magang.
+ 1. Terdapat dua layanan akademik pada SIYANMA, yaitu layanan akdemik tingkat fakultas dan layanan akademik tingkat jurusan. Pengguna dengan peran Admin hanya dapat memonitor jalannya layanan yang diajukan oleh Mahasiswa dan mengekspor datanya sebagai bentuk laporan. Untuk melihat data layanan akademik, pilih layanan akademik sesuai dengan kategori layanan yang ingin dilihat. Sebagai contoh pilih menu :code:`Izin Magang` untuk melihat data layanan akademik dengan kategori Izin Magang.
 
 
   .. figure:: images/magang-list.png
@@ -236,7 +236,7 @@ Berikut langkah-langkah pembuatan akun pengguna untuk SILAMA.
 2. Mahasiswa
 =================================================
 
-Peran utama Mahasiswa dalam SILAMA adalah untuk mengajukan layanan akademik sesuai dengan kebutuhan.
+Peran utama Mahasiswa dalam SIYANMA adalah untuk mengajukan layanan akademik sesuai dengan kebutuhan.
 
 **1. Memperbarui akun**
 

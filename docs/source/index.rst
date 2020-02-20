@@ -7,9 +7,9 @@
 Pendahuluan
 ***************
 
-Selamat datang di SILAMA.
+Selamat datang di SIYANMA.
 
-SILAMA atau Sistem Informasi Layanan Akademik Mahasiswa adalah sebuah sistem yang dibangun guna mempermudah proses pelayanan akademik bagi Mahasiswa dari lingkup Fakultas Ilmu Sosial dan Ilmu Politik UPN “Veteran” Yogyakarta.
+SIYANMA atau Sistem Informasi Layanan Akademik Mahasiswa adalah sebuah sistem yang dibangun guna mempermudah proses pelayanan akademik bagi Mahasiswa dari lingkup Fakultas Ilmu Sosial dan Ilmu Politik UPN “Veteran” Yogyakarta.
 Melalui sistem ini, diharapkan nantinya proses layanan akademik baik di tingkat jurusan ataupun tingkat fakultas dapat berjalan lebih efektif dan efisien. 
 
 
